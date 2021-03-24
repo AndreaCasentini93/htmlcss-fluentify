@@ -198,9 +198,8 @@ section {
     text-align: center;
 }
 #section_1 img {
-    width: 50%;
     height: 200px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     margin: 30px;
 }
