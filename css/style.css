@@ -29,6 +29,9 @@ body {
 .float_left {
     float: left;
 }
+.float_right {
+    float: right;
+}
 
 .p_relative {
     position: relative;
@@ -66,12 +69,12 @@ body {
 }
 .button_small {
     line-height: 20px;
-    padding: 10px 30px;
+    padding: 10px 15px;
     font-size: 12px;
 }
 .button_big {
     line-height: 30px;
-    padding: 15px 30px;
+    padding: 15px 15px;
     font-size: 16px;
 }
 .button_green {
@@ -81,7 +84,7 @@ body {
 .button_green:hover {
     border: 1px solid #7CBB02;
     color: #7CBB02;
-    background-color: #0C325A;
+    background-color: rgba(0, 0, 0, 0);
 }
 .button_blue {
     border: 1px solid #FFFFFF;
@@ -96,7 +99,9 @@ body {
 .list_inline {
     list-style: none;
 }
-.list_inline li {
+.list_inline > li,
+.list_inline > p,
+.list_inline >a {
     display: inline-block;
     margin: 10px;
 }
@@ -121,6 +126,7 @@ body {
 .font_grey {
     font-size: 20px;
     margin: 15px 0;
+    font-weight: 500;
     color: #848484;
 }
 
@@ -222,4 +228,35 @@ header {
     margin: 50px auto;
 }
 
+/* footer */
+footer h2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+footer .content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
 
+#footer_select {
+    border-bottom: 1.5px solid #848484;
+    cursor: pointer;
+}
+#footer_select::after {
+    content: "\25BC";
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 15vw;
+    font-size: 16px;
+    border-radius: 5px 5px 0 0;
+}
