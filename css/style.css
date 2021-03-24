@@ -1,15 +1,3 @@
-/* debug */
-
-/* #section_1 {
-    background-color: red;
-}
-
-#section_2 {    
-    background-color: blue;
-} */
-
-/* /debug */
-
 /* common */
 * {
     box-sizing: border-box;
@@ -225,7 +213,7 @@ header {
 
 #hr_long {
     width: 98%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 /* footer */
