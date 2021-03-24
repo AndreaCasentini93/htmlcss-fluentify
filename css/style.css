@@ -40,12 +40,18 @@ body {
     margin: 0 auto;
 }
 
-.three_box {
+.grey_box {
+    width: 100%;
+    height: 160px;
+    background-color: #C8C8C8;
+}
+
+.box_33w {
     width: calc(33% - 44px);
     height: 100%;
     margin: 0 22px;
 }
-.two_box {
+.box_50w {
     width: 50%;
     height: 100%;
 }
@@ -53,12 +59,15 @@ body {
 .button {
     display: inline-block;
     text-align: center;
-    line-height: 20px;
-    padding: 10px 30px;
     border-radius: 5px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
+}
+.button_small {
+    line-height: 20px;
+    padding: 10px 30px;
+    font-size: 12px;
 }
 .button_big {
     line-height: 30px;
@@ -174,37 +183,43 @@ header {
 }
 
 /* main */
-#grey_box {
-    width: 100%;
-    height: 160px;
-    text-align: center;
-    background-color: #C8C8C8;
-}
-#grey_box .content {
+#section_1 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    text-align: center;
 }
-
-section {
+#section_2,
+#section_3 {
     width: 100%;
     height: 425px;
     padding: 30px;
     background-color: #FFFFFF;
 }
-#section_1 {
+#section_2 {
     text-align: center;
 }
-#section_1 img {
+#section_2 img {
     height: 200px;
     object-fit: cover;
     object-position: center;
     margin: 30px;
+}
+#section_3 img{
+    height: 400px;
+}
+#section_3 #box_2 {
+    padding-right: 20%;
+}
+#section_3 a {
+    color: hsl(211deg 44% 66%);
 }
 
 #hr_long {
     width: 98%;
     margin: 50px auto;
 }
+
+
