@@ -231,14 +231,14 @@ footer .content {
 }
 
 #footer_select {
-    border-bottom: 1.5px solid #848484;
+    border-bottom: 2px solid #848484;
     cursor: pointer;
 }
 #footer_select::after {
     content: "\25BC";
     font-size: 12px;
     vertical-align: middle;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
 #fixed {
