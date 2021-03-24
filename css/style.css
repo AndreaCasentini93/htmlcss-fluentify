@@ -27,18 +27,6 @@ body {
 .p_relative {
     position: relative;
 }
-.p_a_left {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(-0%, -50%);
-}
-.p_a_center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .container {
     width: 80%;
@@ -160,6 +148,12 @@ header {
     height: 80%;
     color: white;
 }
+#jumbotron .content {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+}
 #jumbotron h1 {
     font-size: 55px;
     letter-spacing: 1px;
@@ -174,6 +168,9 @@ header {
     background-color: #C8C8C8;
 }
 #grey_box .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
 }
-
