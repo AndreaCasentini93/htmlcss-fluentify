@@ -59,7 +59,7 @@ body {
     color: #FFFFFF;
 }
 .button_small {
-    line-height: 20px;
+    line-height: 15px;
     padding: 10px 15px;
     font-size: 12px;
 }
@@ -80,6 +80,11 @@ body {
 .button_blue {
     border: 1px solid #FFFFFF;
     background-color: #0C325A;
+}
+.button_blue::after,
+.button_blue::before {
+    content: "";
+    padding: 0 10px;
 }
 .button_blue:hover {
     border: 1px solid #FFFFFF;
