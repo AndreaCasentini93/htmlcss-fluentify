@@ -70,11 +70,13 @@ body {
     line-height: 15px;
     padding: 10px 15px;
     font-size: 12px;
+    margin: 5px 0;
 }
 .button_big {
     line-height: 30px;
     padding: 15px 15px;
     font-size: 16px;
+    margin: 5px 0;
 }
 .button_green {
     border: 1px solid #7CBB02;
@@ -145,6 +147,14 @@ body {
 /* images */
 img {
     padding: 30px 0;
+}
+
+/* text */
+h1,
+h2,
+h3,
+p {
+    padding: 5px 0;
 }
 
 /* header */
@@ -220,7 +230,7 @@ header {
 #jumbotron h1 {
     font-size: 55px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 /* main */
@@ -236,6 +246,10 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+#section_1 h2,
+#section_1 p {
+    padding: 0;
 }
 
 /* main section 2 */
@@ -298,10 +312,20 @@ section {
 }
 #section_5 .button {
     text-align: left;
+    width: 190px;
+    margin-right: 10px;
 }
 #section_5 img {
     height: 300px;
 }
+#section_5 .font_blue {
+    text-align: center;
+    vertical-align: middle;
+}
+#section_5 .font_blue div {
+    width: 380px;
+}
+
 
 /* main section 6 */
 #section_6 {
@@ -341,21 +365,28 @@ section {
 #section_8 h3 {
     font-size: 21px;
 }
-#section_8 a {
-    display: block;
-    padding-top: 15px;
+#section_8 p {
+    padding-bottom: 30px;
 }
+
 #font_lightblue {
-    border-top: 10px solid #87cefa;
     color: #87cefa;
 }
 #font_orange {
-    border-top: 10px solid #ffa500;
     color: #ffa500;
 }
 #font_red {
-    border-top: 10px solid #ff0000;
     color: #ff0000;
+}
+
+#border_lightblue {
+    border-bottom: 10px solid #87cefa;
+}
+#border_orange {
+    border-bottom: 10px solid #ffa500;
+}
+#border_red {
+    border-bottom: 10px solid #ff0000;
 }
 
 /* footer */
@@ -367,6 +398,10 @@ section {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
+}
+#faqs h2,
+#faqs p {
+    padding: 0;
 }
 
 #contacts {
