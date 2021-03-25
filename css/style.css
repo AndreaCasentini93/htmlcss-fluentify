@@ -95,6 +95,14 @@ body {
     margin: 9px;
 }
 
+.list_block{
+    list-style: none;
+    margin-left: -15px;
+}
+.list_block > li {
+    margin: 15px;
+}
+
 /* common color fonts */
 .font_black {
     font-size: 26px;
@@ -247,7 +255,7 @@ header {
 #section_3 img{
     height: 400px;
 }
-#section_3 #box_2 {
+#section_3 .box_2 {
     padding-right: 20%;
 }
 
@@ -282,7 +290,7 @@ header {
     height: 425px;
     padding-top: 90px;
 }
-#section_5 #box_2 {
+#section_5 .box_2 {
     padding-right: 12%;
 }
 #section_5 .button {
@@ -366,6 +374,24 @@ header {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
+}
+
+#contacts {
+    height: 320px;
+    background-color: rgb(23, 65, 107);
+}
+#contacts h3 {
+    font-size: 18px;
+    padding: 50px 0 10px 0;
+}
+#contacts h3:hover {
+    color:#7CBB02;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts a:hover {
+    color: #7CBB02
 }
 
 /* fixed button*/
