@@ -98,11 +98,11 @@ body {
 
 /* common color fonts */
 .font_black {
-    font-size: 27px;
+    font-size: 26px;
     color: #000000;
 }
 .font_green {
-    font-size: 27px;
+    font-size: 26px;
     margin-bottom: 15px;
     color: #7CBB02;
 }
@@ -204,9 +204,6 @@ header {
     object-fit: cover;
     object-position: center;
     margin: 30px;
-}
-#section_2 h3 {
-    height: 65px;
 }
 #section_3 img{
     height: 400px;
