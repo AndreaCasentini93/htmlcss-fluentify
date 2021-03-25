@@ -316,11 +316,12 @@ header {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    width: 40%;
+    width: 30%;
 }
 #section_7 p {
     margin: 40px 0;
 }
+
 /* main section 8 */
 #section_8 h2 {
     text-align: center;
