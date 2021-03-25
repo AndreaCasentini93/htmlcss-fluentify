@@ -322,6 +322,38 @@ header {
     margin: 40px 0;
 }
 /* main section 8 */
+#section_8 h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+#section_8 img {
+    height: 100px;
+    margin: 80px auto 40px auto;
+}
+#section_8 h3 {
+    margin: 20px 0;
+    font-size: 21px;
+}
+#section_8 p {
+    padding-bottom: 40px;
+}
+#section_8 a {
+    padding: 40px 0;
+    display: block;
+    width: 100%;
+}
+#font_lightblue {
+    border-top: 10px solid #87cefa;
+    color: #87cefa;
+}
+#font_orange {
+    border-top: 10px solid #ffa500;
+    color: #ffa500;
+}
+#font_red {
+    border-top: 10px solid #ff0000;
+    color: #ff0000;
+}
 
 /* footer */
 
