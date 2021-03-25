@@ -245,6 +245,7 @@ footer .content {
     padding-left: 80px;
 }
 
+/* fixed button*/
 #fixed {
     position: fixed;
     bottom: 0;
