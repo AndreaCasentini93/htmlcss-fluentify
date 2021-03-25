@@ -205,6 +205,9 @@ header {
     object-position: center;
     margin: 30px;
 }
+#section_2 h3 {
+    height: 65px;
+}
 #section_3 img{
     height: 400px;
 }
