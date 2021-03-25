@@ -77,20 +77,6 @@ body {
     color: #7CBB02;
     background-color: rgba(0, 0, 0, 0);
 }
-.button_blue {
-    border: 1px solid #FFFFFF;
-    background-color: #0C325A;
-}
-.button_blue::after,
-.button_blue::before {
-    content: "";
-    padding: 0 10px;
-}
-.button_blue:hover {
-    border: 1px solid #FFFFFF;
-    color: #0C325A;
-    background-color: #FFFFFF;
-}
 
 /* common lists */
 .list_inline {
@@ -149,6 +135,7 @@ header {
 #header_nav .list_inline a:hover:not(.button) {
     color: #7CBB02;
 }
+
 [id^="nav"] {
     height: 100%;
 }
@@ -168,10 +155,25 @@ header {
     text-align: right;
 }
 
+#button_blue {
+    border: 1px solid #FFFFFF;
+    background-color: #0C325A;
+}
+#button_blue::after,
+#button_blue::before {
+    content: "";
+    padding: 0 10px;
+}
+#button_blue:hover {
+    border: 1px solid #FFFFFF;
+    color: #0C325A;
+    background-color: #FFFFFF;
+}
+
 #jumbotron {
     width: 55%;
     height: 80%;
-    color: white;
+    color: #FFFFFF;
 }
 #jumbotron .content {
     position: absolute;
@@ -194,6 +196,7 @@ header {
     width: 100%;
     text-align: center;
 }
+
 #section_2,
 #section_3 {
     width: 100%;
@@ -210,6 +213,7 @@ header {
     object-position: center;
     margin: 30px;
 }
+
 #section_3 img{
     height: 400px;
 }
@@ -217,7 +221,7 @@ header {
     padding-right: 20%;
 }
 #section_3 a {
-    color: hsl(211deg 44% 66%);
+    color: #6491C2;
 }
 
 #hr_long {
