@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* common positioning */
 .clearfix {
     content: "";
     display: table;
@@ -25,6 +26,7 @@ body {
     position: relative;
 }
 
+/* common containers */
 .container {
     width: 80%;
     height: 100%;
@@ -47,6 +49,7 @@ body {
     height: 100%;
 }
 
+/* common buttons */
 .button {
     display: inline-block;
     text-align: center;
@@ -84,24 +87,16 @@ body {
     background-color: #FFFFFF;
 }
 
+/* common lists */
 .list_inline {
     list-style: none;
 }
-.list_inline > li,
-.list_inline > p,
-.list_inline >a {
+.list_inline > li {
     display: inline-block;
     margin: 10px;
 }
-.list_inline a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.list_inline a:hover:not(.button) {
-    color: #7CBB02;
-}
 
+/* common color fonts */
 .font_black {
     font-size: 27px;
     color: #000000;
@@ -118,6 +113,7 @@ body {
     color: #848484;
 }
 
+/* common horizontal rules */
 .hr_small {
     width: 20%;
     margin: 30px auto;
@@ -139,6 +135,14 @@ header {
     font-size: 12px;
     line-height: 80px;
     color: #FFFFFF;
+}
+#header_nav .list_inline a:not(.button) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#header_nav .list_inline a:hover:not(.button) {
+    color: #7CBB02;
 }
 [id^="nav"] {
     height: 100%;
