@@ -320,12 +320,12 @@ section {
 }
 #section_5 .font_blue {
     text-align: center;
-    vertical-align: middle;
+    line-height: 30px;
 }
 #section_5 .font_blue div {
-    width: 380px;
+    width: 90%;
+    margin: 0;
 }
-
 
 /* main section 6 */
 #section_6 {
@@ -432,7 +432,6 @@ section {
 #delivery div {
     margin: 2px 0;
 }
-
 
 /* fixed button*/
 #fixed {
